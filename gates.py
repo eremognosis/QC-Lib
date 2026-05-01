@@ -245,8 +245,6 @@ def U_3_gate(theta, phi, lamb):
         [m, -n*x],
         [y*n, x*y*m]
     ]
-    print(X)
-    print()
     return QuantumGate(X, "U_3")
 
 
